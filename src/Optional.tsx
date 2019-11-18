@@ -30,7 +30,7 @@ const option = t.interface({
 });
 const someVar: t.TypeOf<typeof option> = {
   str: 'Example',
-  str1: undefined
+  // str1: undefined
 }
 
 

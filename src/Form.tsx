@@ -81,7 +81,7 @@ export const Form: FunctionComponent = () => {
       if (ioInterface.props[key]) {
         switch(ioInterface.props[key].name) {
           case 'string': {
-            obj[key] = 'Test';
+            obj[key] = 'Test1';
             break;
           }
           case 'number': {
